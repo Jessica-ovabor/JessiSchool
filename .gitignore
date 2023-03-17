@@ -1,0 +1,8 @@
+#ignore all the file with 
+env/
+instance/
+__pycache__
+*pyc
+.DS_Store
+.env
+db.sqlite3
