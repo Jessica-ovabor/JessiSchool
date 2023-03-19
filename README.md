@@ -324,9 +324,9 @@ This project was made possible by:
 [issues-url]: https://github.com/Jessica-ovabor/JessiSchool/issues
 [license-shield]: https://img.shields.io/github/license/Jessica-ovabor/JessiSchool.svg?style=for-the-badge
 [license-url]: https://github.com/Jessica-ovabor/JessiSchool-API/blob/main/LICENSE
-[twitter-shield]: https://img.shields.io/badge/-@jessicaovabor-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/ze_austin
+[twitter-shield]: https://img.shields.io/badge/-@jovabor-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/ze_austin
 [twitter-url]: https://twitter.com/jovabor
-[JessiSchool-screenshot]: [Screenshot_20230319_063511]
+
 [python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [flask]: https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white
 [sqlite]: https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white!(https://user-images.githubusercontent.com/74324460/226195821-80565e9c-bc4a-450b-8f5f-aa2e4535ba83.png)
