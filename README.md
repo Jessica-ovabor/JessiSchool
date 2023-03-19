@@ -269,9 +269,8 @@ python runserver.py
 
 <br />
 
-[Screenshot_20230319_063400](https://user-images.githubusercontent.com/74324460/226197360-6481add7-07fe-4ded-a839-bbfe04774854.png)
-![Screenshot_20230319_063435](https://user-images.githubusercontent.com/74324460/226197363-ea88c83a-539e-4c28-baaa-f448c17fdc32.png)
-![Screenshot_20230319_063511](https://user-images.githubusercontent.com/74324460/226197365-960c2d2a-fc65-4d97-b179-faf373e1c0e4.png)
+![JessiSchool](https://user-images.githubusercontent.com/74324460/226197363-ea88c83a-539e-4c28-baaa-f448c17fdc32.png)
+![JessiSchool](https://user-images.githubusercontent.com/74324460/226197365-960c2d2a-fc65-4d97-b179-faf373e1c0e4.png)
  
 
 <br/>
