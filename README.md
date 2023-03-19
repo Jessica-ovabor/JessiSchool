@@ -138,8 +138,9 @@ To explore and use this API, follow these steps:
  Create a student account:
    - Click 'student' to reveal a dropdown menu of the authentication routes, then register an admin account via the '/student/register' route. Input your details and a type 'student' will be assigned.
   
-3. -Login via the '/auth/login' route to generate a JWT token. Copy the access token only without the quotation marks- to login an admin
-   -Login via the '/student/login' route to generate a JWT token. Copy the access token only without the quotation marks- to login a student
+3.  Login a Student or Admin account:
+    -Login via the '/auth/login' route to generate a JWT token. Copy the access token only without the quotation marks- to login an admin
+    -Login via the '/student/login' route to generate a JWT token. Copy the access token only without the quotation marks- to login a student
 
 4. Scroll back up to click <b>Authorize</b> at top right. Enter the JWT token in the given format, for example:
    ```
@@ -222,7 +223,7 @@ python runserver.py
 
 | ROUTE                          | METHOD | DESCRIPTION                                   | AUTHORIZATION          | USER TYPE |
 |--------------------------------| ------ |-----------------------------------------------|------------------------|-----------|
-| `/auth/register/admin`         | _POST_ | | Creation of admin account                   |     `None`             | Admin     |
+| `/auth/register/admin`         | _POST_ |  Creation of admin account                    |     `None`             | Admin     |
 | `/auth/login`                  | _POST_ | Creation of JWT Tokens for  admin             |     `None`             | Admin     |
 | `/auth/refresh`                | _POST_ | Creation of Access Tokens for all account     | `Bearer Refresh-Token` | Admin     |
 | `/auth/logout`                 | _POST_ | LogOut User and revoke access/refresh tokens  | `Bearer Access-Token`  | Admin     |
@@ -268,7 +269,10 @@ python runserver.py
 
 <br />
 
-[![JessiSchool Screenshot][student-management-api-screenshot]][Screenshot_20230319_063511]
+[Screenshot_20230319_063400](https://user-images.githubusercontent.com/74324460/226197360-6481add7-07fe-4ded-a839-bbfe04774854.png)
+![Screenshot_20230319_063435](https://user-images.githubusercontent.com/74324460/226197363-ea88c83a-539e-4c28-baaa-f448c17fdc32.png)
+![Screenshot_20230319_063511](https://user-images.githubusercontent.com/74324460/226197365-960c2d2a-fc65-4d97-b179-faf373e1c0e4.png)
+ 
 
 <br/>
 
@@ -321,7 +325,7 @@ This project was made possible by:
 [issues-url]: https://github.com/Jessica-ovabor/JessiSchool/issues
 [license-shield]: https://img.shields.io/github/license/Jessica-ovabor/JessiSchool.svg?style=for-the-badge
 [license-url]: https://github.com/Jessica-ovabor/JessiSchool-API/blob/main/LICENSE
-[twitter-shield]: https://img.shields.io/badge/-@Oluwatemmy15-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/ze_austin
+[twitter-shield]: https://img.shields.io/badge/-@jovabor-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/ze_austin
 [twitter-url]: https://twitter.com/jovabor
 [JessiSchool-screenshot]: [Screenshot_20230319_063511]
 [python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
