@@ -60,9 +60,9 @@
 ---
 
 <!-- About the Project -->
-## About Student Management API
+## About JessiSchool
 
-Student Management API does the main function of a university system and explains how it works. It enables the school to create an admin account. It allows the registration of students by admin. Also, the API allows the school admin to create courses and handling the grading system for the student and student cgpa on a scale of 4.0.
+JessiSchool is a Student Management API does the main function of a university system and explains how it works. It enables the school to create an admin account. It allows the registration of students by admin. Also, the API allows the school admin to create courses and handling the grading system for the student and student cgpa on a scale of 4.0.
 
 CRUD operations can be carried out on the admin data ,student data and the courses data, with an easy-to-use Swagger UI setup for testing and integration with the front end.
 
