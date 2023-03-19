@@ -324,7 +324,7 @@ This project was made possible by:
 [issues-url]: https://github.com/Jessica-ovabor/JessiSchool/issues
 [license-shield]: https://img.shields.io/github/license/Jessica-ovabor/JessiSchool.svg?style=for-the-badge
 [license-url]: https://github.com/Jessica-ovabor/JessiSchool-API/blob/main/LICENSE
-[twitter-shield]: https://img.shields.io/badge/-@jessica ovabor-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/ze_austin
+[twitter-shield]: https://img.shields.io/badge/-@jessicaovabor-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/ze_austin
 [twitter-url]: https://twitter.com/jovabor
 [JessiSchool-screenshot]: [Screenshot_20230319_063511]
 [python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
