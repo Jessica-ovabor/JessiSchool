@@ -86,7 +86,7 @@ This Student Management API was built with Python's Flask-RESTX a python Api by 
 
 Creating this API helped me learn and practice:
 * API Development with Python
-* Unit Testing using pytest and Postman
+* Unit Testing using Pytest,Insomnia and Postman
 * Routing
 * Swagger Documentation
 * Debugging
