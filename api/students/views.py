@@ -321,6 +321,7 @@ class GetStudentCourses(Resource):
             return resp, HTTPStatus.OK
     
         else:
+   
             return {"message": "Admins or Authorised Student Only"}, HTTPStatus.FORBIDDEN
 
 

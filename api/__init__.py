@@ -18,7 +18,24 @@ def create_app(config=config_dict['dev']):
     app.config.from_object(config)
     db.init_app(app)
     jwt = JWTManager(app)
-    api =Api(app,title='Student Management Api',description='A student management api restful services')
+    authorizations = {
+        'apikey': {
+            'type': 'apiKey',
+            'in': 'header',
+            'name': "Authorization",
+            "description": "Add a JWT token to the header with ** Bearer &lt;JWT&gt; ** token to authorize"
+        }
+    }
+
+    api = Api(
+        app, 
+        version='1.0', 
+        title='Student Management API', 
+        description='A simple Student Management REST API service',
+        authorizations=authorizations,
+        security='apikey'
+    )
+
     api.add_namespace(auth_namespace, path='/auth')
     api.add_namespace(student_namespace, path='/student')
     api.add_namespace(course_namespace, path='/course')

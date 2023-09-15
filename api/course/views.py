@@ -215,8 +215,11 @@ class ListCourseEnrollment(Resource):
     )
     @admin_required()
     def get(self,course_id,):
+        """
+        List all enrolled student in a particular course
+        """
         
-        
+
         course = StudentCourse.query.get(course_id)
         
         if not course:
